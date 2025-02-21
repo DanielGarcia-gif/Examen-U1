@@ -48,7 +48,6 @@ namespace Examen_U1
             if (res == DialogResult.OK)
             {
                 string txt = File.ReadAllText(openFileDialogAbrir.FileName);
-                string[] col = txt.Split(',');
                 string[] ren = txt.Split("\n");
 
                 for (int i = 0; i < ren.Length - 1; i++)
